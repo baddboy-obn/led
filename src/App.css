@@ -1,0 +1,130 @@
+[id^=radio-] {
+  display: none;
+}
+[id^=radio-]:checked + label:before {
+  content: url(/images/check.svg);
+  transform: scale(.4);
+  position: absolute;
+  right: 10px;
+  top:-5px;
+  color: white
+}
+
+[id^=radio-] + label {
+  margin-bottom: 0;
+}
+[id^=radio-] + label>span {
+  align-items: center;
+  position: relative;
+  bottom: 20px;
+  width: 100%;
+  display: block;
+
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #ffffff
+}
+
+nav .fa-shopping-cart, .fa-bars {
+  color: white;
+}
+
+.navbar {
+  z-index: 999;
+}
+
+.menu {
+  position: fixed;
+  right: 0;
+  width: 250px;
+  height: 100vh;
+  overflow-y: hidden;
+  z-index: 9999;
+  background-color: #333333;
+  display: block;
+}
+
+.menu ul {
+  list-style: none;
+  padding-left: 10px;
+  padding-right:10px
+}
+
+.menu li {
+  border-bottom: 1px solid #666666;
+  padding: 20px;
+  text-align: center;
+}
+.menu li:hover {
+  background-color: #444444;
+}
+
+.menu a {
+  color: white;
+  font-size: 10pt;
+  font-family: "Times New Roman";
+}
+.menu a:hover {
+  text-decoration: none;
+}
+
+.navigation {
+  height: 50px;
+  background-color: #333333;
+}
+
+.main-modal {
+  position: absolute;
+  background-color: white;
+  z-index: 999;
+  overflow-y: scroll;
+  padding-top: 10px;
+  margin-bottom: 100px;
+}
+
+.footer-menu {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.footer-menu ul {
+  padding-left: 0;
+  margin-bottom: 0;
+  background-color: white;
+  display: flex;
+}
+
+.footer-menu ul li {
+  padding: 15px 15px 15px 15px;
+  display: inline-block;
+  border-bottom: 3px solid #00abf0;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+}
+
+.footer-menu a {
+  color: #333333;
+  width:100%;
+}
+
+.footer-menu a:hover {
+  text-decoration: none;
+}
+
+.footer-menu li:hover {
+  background-color: #dddddd;
+}
+
+.footer-menu li .choosen {
+  background-color: #00b6ff;
+  color: white;
+}
+
+.i-button {
+  position: absolute; left:0; top: 0; width:10%; border: 0; background-color: #00abf0
+}
+.i-button-background {
+ background-color: #00b6ff
+}
