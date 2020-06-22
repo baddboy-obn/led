@@ -2,4 +2,4 @@
 ##  Шаг 1
 npm install
 ## Шаг 2
-npm run
+npm run start
